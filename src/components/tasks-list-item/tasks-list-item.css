@@ -1,0 +1,71 @@
+.list-group-item {
+  margin: 2px 5px;
+  padding: 15px 20px;
+  background: rgba(235, 246, 255, 0.96);
+  border: none;
+  border-radius: 5px;
+  color: #2b1a61;
+}
+
+.list-group-item:last-child {
+  border-bottom: none;
+}
+
+.list-group-item span {
+  line-height: 35px;
+  font-size: 20px;
+  cursor: pointer;
+  min-width: 550px;
+}
+
+.list-group-item input {
+  line-height: 35px;
+  font-size: 20px;
+  text-align: center;
+  border: 0;
+}
+
+.list-group-item button {
+  width: 35px;
+  height: 35px;
+  margin: 3px;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.list-group-item .btn-cookie {
+  color: #e09f3e;
+  background: rgba(235, 246, 255, 0.96);
+}
+
+.list-group-item .btn-trash {
+  color: #e5383b;
+  background: rgba(235, 246, 255, 0.96);
+}
+
+.list-group-item .fa-star {
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 16px;
+  color: #00c0ff;
+  transition: 0.3s all;
+  transform: translateX(30px);
+  opacity: 0;
+}
+
+.list-group-item.like .fa-star {
+  opacity: 1;
+  transform: translateX(0px);
+}
+
+.list-group-item.increase .list-group-item-label,
+.list-group-item.increase .list-group-item-input {
+  color: #e09f3e;
+}
+
+.list-group-item.increase .btn-star {
+  color: #aeaeae;
+}

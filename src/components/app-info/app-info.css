@@ -1,0 +1,11 @@
+.app-info {
+  padding: 25px;
+  background-color: #c9b8ff;
+  border-radius: 23px;
+  box-shadow: 10px 10px 20px 0px rgba(43, 26, 97, 0.3);
+  color: #2b1a61;
+}
+
+h1 {
+  font-weight: 700;
+}
